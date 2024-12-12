@@ -32,7 +32,7 @@ app.get("/auth/get_message", (req, res) => {
   return res.status(200).json({ message: "Hello, You are an authenticated user. Congratulations!" });
 });
  
-const PORT =5003;
+const PORT =5004;
 
 app.use("/customer", customer_routes);
 app.use("/", genl_routes);
